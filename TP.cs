@@ -15,10 +15,14 @@ namespace ComputeAverageApp
             double g5 = Convert.ToDouble(Console.ReadLine());
 
             double average = (g1 + g2 + g3 + g4 + g5) / 5;
+            double roundedAverage = Math.Round(roundedAverage);
 
-            Console.WriteLine("The average is: " + average);
+            
+
+            Console.WriteLine("The average is: " + average + " while its rounded off average is: " + roundedAverage);
             Console.WriteLine("Press any key to exit...");
             Console.ReadKey();
         }
     }
 }
+
